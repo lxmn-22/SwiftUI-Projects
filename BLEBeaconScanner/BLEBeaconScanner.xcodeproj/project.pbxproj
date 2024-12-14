@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FAD02CA2C41372C00BE5EC0 /* BLEBeaconScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD02C92C41372C00BE5EC0 /* BLEBeaconScannerApp.swift */; };
+		5FAD02CC2C41372C00BE5EC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD02CB2C41372C00BE5EC0 /* ContentView.swift */; };
+		5FAD02CE2C41372E00BE5EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD02CD2C41372E00BE5EC0 /* Assets.xcassets */; };
+		5FAD02D12C41372E00BE5EC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD02D02C41372E00BE5EC0 /* Preview Assets.xcassets */; };
+		5FAD02DE2C413C5800BE5EC0 /* BluetoothManagerClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD02DD2C413C5800BE5EC0 /* BluetoothManagerClassModel.swift */; };
+		5FAD02E02C4140D300BE5EC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD02DF2C4140D300BE5EC0 /* HomeView.swift */; };
+		5FAD02E42C414E7000BE5EC0 /* DevicesInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD02E32C414E7000BE5EC0 /* DevicesInfo.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FAD02C62C41372C00BE5EC0 /* BLEBeaconScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEBeaconScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAD02C92C41372C00BE5EC0 /* BLEBeaconScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEBeaconScannerApp.swift; sourceTree = "<group>"; };
+		5FAD02CB2C41372C00BE5EC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FAD02CD2C41372E00BE5EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FAD02D02C41372E00BE5EC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FAD02DD2C413C5800BE5EC0 /* BluetoothManagerClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManagerClassModel.swift; sourceTree = "<group>"; };
+		5FAD02DF2C4140D300BE5EC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5FAD02E32C414E7000BE5EC0 /* DevicesInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DevicesInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FAD02C32C41372C00BE5EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FAD02BD2C41372C00BE5EC0 = {
+			isa = PBXGroup;
+			children = (
+				5FAD02C82C41372C00BE5EC0 /* BLEBeaconScanner */,
+				5FAD02C72C41372C00BE5EC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FAD02C72C41372C00BE5EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02C62C41372C00BE5EC0 /* BLEBeaconScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FAD02C82C41372C00BE5EC0 /* BLEBeaconScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02D72C41375100BE5EC0 /* App */,
+				5FAD02D82C41375900BE5EC0 /* Assets */,
+				5FAD02D92C41376700BE5EC0 /* Core */,
+				5FAD02CF2C41372E00BE5EC0 /* Preview Content */,
+				5FAD02E32C414E7000BE5EC0 /* DevicesInfo.plist */,
+			);
+			path = BLEBeaconScanner;
+			sourceTree = "<group>";
+		};
+		5FAD02CF2C41372E00BE5EC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02D02C41372E00BE5EC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FAD02D72C41375100BE5EC0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02C92C41372C00BE5EC0 /* BLEBeaconScannerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5FAD02D82C41375900BE5EC0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02CD2C41372E00BE5EC0 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5FAD02D92C41376700BE5EC0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02DB2C41378600BE5EC0 /* Model */,
+				5FAD02DA2C41377E00BE5EC0 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5FAD02DA2C41377E00BE5EC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02DC2C41379300BE5EC0 /* RootView */,
+				5FAD02DF2C4140D300BE5EC0 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FAD02DB2C41378600BE5EC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02DD2C413C5800BE5EC0 /* BluetoothManagerClassModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FAD02DC2C41379300BE5EC0 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD02CB2C41372C00BE5EC0 /* ContentView.swift */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FAD02C52C41372C00BE5EC0 /* BLEBeaconScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAD02D42C41372E00BE5EC0 /* Build configuration list for PBXNativeTarget "BLEBeaconScanner" */;
+			buildPhases = (
+				5FAD02C22C41372C00BE5EC0 /* Sources */,
+				5FAD02C32C41372C00BE5EC0 /* Frameworks */,
+				5FAD02C42C41372C00BE5EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEBeaconScanner;
+			productName = BLEBeaconScanner;
+			productReference = 5FAD02C62C41372C00BE5EC0 /* BLEBeaconScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FAD02BE2C41372C00BE5EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5FAD02C52C41372C00BE5EC0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5FAD02C12C41372C00BE5EC0 /* Build configuration list for PBXProject "BLEBeaconScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FAD02BD2C41372C00BE5EC0;
+			productRefGroup = 5FAD02C72C41372C00BE5EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FAD02C52C41372C00BE5EC0 /* BLEBeaconScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FAD02C42C41372C00BE5EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAD02D12C41372E00BE5EC0 /* Preview Assets.xcassets in Resources */,
+				5FAD02CE2C41372E00BE5EC0 /* Assets.xcassets in Resources */,
+				5FAD02E42C414E7000BE5EC0 /* DevicesInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FAD02C22C41372C00BE5EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAD02CC2C41372C00BE5EC0 /* ContentView.swift in Sources */,
+				5FAD02E02C4140D300BE5EC0 /* HomeView.swift in Sources */,
+				5FAD02DE2C413C5800BE5EC0 /* BluetoothManagerClassModel.swift in Sources */,
+				5FAD02CA2C41372C00BE5EC0 /* BLEBeaconScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FAD02D22C41372E00BE5EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FAD02D32C41372E00BE5EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FAD02D52C41372E00BE5EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLEBeaconScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = TD59TXK468;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxmn.BLEBeaconScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FAD02D62C41372E00BE5EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLEBeaconScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = TD59TXK468;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxmn.BLEBeaconScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FAD02C12C41372C00BE5EC0 /* Build configuration list for PBXProject "BLEBeaconScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAD02D22C41372E00BE5EC0 /* Debug */,
+				5FAD02D32C41372E00BE5EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FAD02D42C41372E00BE5EC0 /* Build configuration list for PBXNativeTarget "BLEBeaconScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAD02D52C41372E00BE5EC0 /* Debug */,
+				5FAD02D62C41372E00BE5EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FAD02BE2C41372C00BE5EC0 /* Project object */;
+}
